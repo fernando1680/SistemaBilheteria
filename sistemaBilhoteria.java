@@ -5,7 +5,6 @@ public class sistemaBilhoteria {
         Scanner sc = new Scanner(System.in);
         String[][] cinema = new String[5][3];
 
-        // 1. Entrada de Dados
         for (int i = 0; i < 5; i++) {
             System.out.println("\n---- Poltrona especial " + (i + 1) + " ----");
             System.out.print("Nome: ");
@@ -30,10 +29,6 @@ public class sistemaBilhoteria {
             if (!nome.trim().isEmpty()) {
                 System.out.println("Poltrona " + (i + 1) + ": [OCUPADA] - " + nome);
                 
-                
-                
-
-              
                 if (tipoEntrada.equalsIgnoreCase("inteira")) {
                     faturamentoTotal += 40.0; 
                     totalInteiras++;          
