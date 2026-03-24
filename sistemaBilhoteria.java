@@ -69,6 +69,8 @@ public class sistemaBilhoteria {
                 System.err.println("O número digitado é maior que o pedido!!");
             }
         }
+
+         Sistem.out.println("A verificação foi concluída, obrigado.")
         
 
 
